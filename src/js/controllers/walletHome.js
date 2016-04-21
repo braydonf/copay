@@ -1281,7 +1281,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
         }
 
         if (resp.amount == 0) {
-          self.error = gettext("Not enought funds for fee");
+          self.error = gettext("Not enough funds for fee");
           $scope.$apply();
           return;
         }
